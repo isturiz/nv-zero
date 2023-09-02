@@ -1,11 +1,10 @@
 local map = vim.keymap.set
 
-
-
 -- fast actions
 map("n", "<leader>w", ":w<CR>", { desc = "fast file saving" })
 map("n", "<leader>q", ":q<CR>", { desc = "fast quit" })
 map("i", "jk", "<Esc>", { desc = "fast escape in insert mode" })
+map("n", "<leader><leader>w", ":set wrap!<CR>", { desc = "activate/desactivate wrap line" })
 
 -- Move Lines
 map("n", "<A-j>", ":m .+1<CR>==", { desc = "" })

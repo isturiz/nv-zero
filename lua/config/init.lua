@@ -1,4 +1,4 @@
-require "config.settings"
+require "config.options"
 
 -- autocmds and keymaps can wait to load
 vim.api.nvim_create_autocmd("User", {

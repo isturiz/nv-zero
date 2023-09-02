@@ -41,3 +41,6 @@ opt.smartcase = true -- ignore lower and upper case
 
 -- save
 opt.confirm = true -- confirm before exiting
+
+-- unclassified
+opt.termguicolors = true
