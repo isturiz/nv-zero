@@ -1,4 +1,6 @@
-vim.bo.tabstop = 2
-vim.bo.softtabstop = 2
+local size = 4
+
+vim.bo.tabstop = size
+vim.bo.softtabstop = size
 vim.bo.expandtab = true
-vim.bo.shiftwidth = 2
+vim.bo.shiftwidth = size

@@ -44,3 +44,8 @@ opt.confirm = true -- confirm before exiting
 
 -- unclassified
 opt.termguicolors = true
+
+-- indent-blankline plugin
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
+vim.opt.listchars:append "eol:↴"
