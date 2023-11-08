@@ -110,6 +110,11 @@ return {
                 require("telescope").extensions.file_browser.file_browser({ path = "%:h:p", select_buffer = true })
             end,
             desc = "Telescope file browser"
-        }
+        },
+        {
+            "<leader>fg",
+            function() require("telescope.builtin").live_grep() end,
+            desc = "General: [f]ind [w]ord in the current directory",
+        },
     },
 }

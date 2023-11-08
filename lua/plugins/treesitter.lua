@@ -31,7 +31,10 @@ return {
                     "regex",
 
                     -- bash
-                    "bash"
+                    "bash",
+
+                    -- Python
+                    "python",
                 },
 
                 highlight = {
@@ -59,6 +62,14 @@ return {
             opts = {
                 autotag = {
                     enable = true,
+
+                    filetypes = {
+                        "html",
+                        "javascript",
+                        "typescript",
+                        "jsx",
+                        "tsx",
+                    }
                 },
             },
         },
