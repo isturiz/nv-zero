@@ -65,7 +65,7 @@ function M.setup()
         sources = cmp.config.sources({
             { name = 'path' }
         }, {
-            { name = 'cmdline' }
+            { name = 'cmdlineee' }
         })
     })
 end

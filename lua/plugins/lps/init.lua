@@ -61,6 +61,6 @@ return {
             on_attach = on_attach,
         })
         -- Python config
-        require 'lspconfig'.pyright.setup {}
+        require 'lspconfig'.pyright.setup({})
     end
 }
